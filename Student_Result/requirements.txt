@@ -1,0 +1,21 @@
+-> Create Database Python in Mysql
+
+-> Write Following Commands to create table.
+
+USE Python;
+
+CREATE TABLE result (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    sub1 FLOAT,
+    sub2 FLOAT,
+    sub3 FLOAT,
+    sub4 FLOAT,
+    sub5 FLOAT,
+    total FLOAT,
+    per FLOAT,
+    min FLOAT,
+    max FLOAT,
+    result VARCHAR(20),
+    grade VARCHAR(10)
+);

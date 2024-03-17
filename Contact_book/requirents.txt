@@ -1,0 +1,20 @@
+-> Create Database Contact in Mysql
+
+-> Write Following Commands to create table.
+
+CREATE TABLE admin (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(255),
+    Email VARCHAR(255),
+    Contact VARCHAR(15),
+    Password VARCHAR(255)
+);
+
+CREATE TABLE contacts (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(255),
+    Email VARCHAR(255),
+    Contact VARCHAR(15),
+    City VARCHAR(255),
+    User_id INT
+);
